@@ -1,0 +1,1314 @@
+{
+    "data": {
+        "cards": [
+            {
+                "id": "202329",
+                "info": {
+                    "name": "Milk, Curd, Butter (मक्खन) & ButterMilk (छाछ)",
+                    "cloudinaryImageId": "https://dairynews7x7.com/wp-content/uploads/2024/03/mother-dairy-demand-surge-dairynews7x7.jpg",
+                    "cuisines": ""
+                },
+                "ItemsMenu": [
+                    {
+                        "id": "29",
+                        "name": "Mother Dairy Cow Milk Fresh Milk",
+                        "cuisines": "Healthy & tasty",
+                        "rate" : 29,
+                        "weigth" : "500ml",
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/ba929c05-aba2-4838-b674-e2072089022b.jpg?ts=1712325614" 
+                    },
+                    {
+                        "id": "37",
+                        "name": "Mother Dairy Buffalo Milk",
+                        "cuisines": "Rich in cream",
+                        "rate" : 37,
+                        "weigth" : "500ml",
+                        "cloudinaryImageId" : "https://bl-i.thgim.com/public/incoming/q80t0j/article67744653.ece/alternates/FREE_1200/WhatsApp%20Image%202024-01-16%20at%202.43.13%20PM.jpeg"
+
+                    },
+                    {
+                        "id": "34",
+                        "name": "Mother Dairy Full Cream Fresh Milk",
+                        "rate": 34,
+                        "weigth" : "500ml",
+                        "cuisines": "Pasteurised full cream milk,  Rich in calcium",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/8f6bfafc-ad44-422a-8e96-7e2d2994012a.jpg?ts=1707998856"
+                    },
+                    {
+                        "id": "35",
+                        "name": "Curd",
+                        "rate" : 35,
+                        "weigth" : "500ml",
+                        "cuisines": "Probiotic & healthy",
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/86446a.jpg?ts=1687948913"
+                    },
+                    {
+                        "id": "19",
+                        "name": "Curd",
+                        "rate":19,
+                        "weigth":"250gm",
+                        "cuisines": "Probiotic & healthy",
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/86446a.jpg?ts=1687948913"
+                    },
+                    {
+                        "id": "60",
+                        "name": "Butter",
+                        "rate" : 60,
+                        "cuisines": "Creamy & smooth",
+                        "cloudinaryImageId":"https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/0be0d49a-4dae-408a-8786-afae1dd05cb1.jpg?ts=1707312314"
+                    },
+                    {
+                        "id": "10",
+                        "name": "Mother Dairy Probiotic Tadka Salted Buttermilk",
+                        "cuisines": "Refreshing & light",
+                        "rate":10,
+                        "weigth": "270ml",
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/e723544a-a090-418a-927c-ff1c9aece278.jpg?ts=1712986639"
+                    },
+                    {
+                        "id": "10",
+                        "name": "Mother Dairy Probiotic Tadka Plain Buttermilk",
+                        "cuisines": "Refreshing & light",
+                        "rate" : 10,
+                        "weigth": "270ml",
+                        "cloudinaryImageId" : "https://www.bigbasket.com/media/uploads/p/xxl/900457334_1-mother-dairy-plain-probiotic-buttermilk.jpg"
+                    }
+                ]
+            },
+            {
+                "id": "202355_1",
+                "info": {
+                    "name": "Bread & Eggs",
+                    "cloudinaryImageId": "https://harvestgold.in/image/ProductImage/818a8a255136cbe36165ad397ee9a2b4.png",
+                    "cuisines": ""
+                },
+                "ItemsMenu": [
+                    {
+                        "id": "30",
+                        "name": "Harvest Gold - White Bread",
+                        "rate" : 30,
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/a9b8e4d0-62ae-4a55-b0f7-c07d16a09326.jpg?ts=1707564212",
+                        "cuisines": "With goodness of wheat"
+                    },
+                    {
+                        "id": "B40",
+                        "name": "Harvest Gold - Sandwhich White Bread",
+                        "rate" : 40,
+                        "weigth":"450gm",
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/77e340a9-a133-434f-a326-2c9d334078fc.jpg?ts=1729169312",
+                        "cuisines": "With goodness of wheat"
+                    },
+                    {
+                        "id": "B55",
+                        "name": "Harvest Gold - Hearty Brown Bread ",
+                        "rate": 60,
+                        "weigth" :"400gm",
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/79c14c88-da9f-482d-8393-38f65756da08.jpg?ts=17075642160",
+                        "cuisines": "Soft & classic"
+                    },
+                    {
+                        "id": "B60",
+                        "name": "Harvest Gold",
+                        "rate": 60,
+                        "weigth" :"400gm",
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/77e340a9-a133-434f-a326-2c9d334078fc.jpg?ts=1729169312",
+                        "cuisines": "Soft & classic"
+                    },
+                    
+                    {
+                        "id": "E8",
+                        "name": "Eggs",
+                        "rate" : "8 per piece",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/50ea4a9a-a56e-4387-a652-95d7f11b4ee3.jpg?ts=1729165861",
+                        "cuisines": "Protein-rich"
+                    },
+                    {
+                        "id": "E10",
+                        "name": "Table White Eggs",
+                        "rate" : "80",
+                        "weigth": "10 Pieces",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/a38b1b53-9c9d-4a2f-9141-06f2dbeb51ea.jpg?ts=1723099180",
+                        "cuisines": "Protein-rich"
+                    },
+                    {
+                        "id": "E6",
+                        "name": "Table White Eggs",
+                        "rate" : "48",
+                        "weigth": "6 Pieces",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/a38b1b53-9c9d-4a2f-9141-06f2dbeb51ea.jpg?ts=1723099180",
+                        "cuisines": "Protein-rich"
+                    },
+                    {
+                        "id": "E240",
+                        "name": "Eggs",
+                        "rate" : "240",
+                        "weigth":"30 Pieces",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/50ea4a9a-a56e-4387-a652-95d7f11b4ee3.jpg?ts=1729165861",
+                        "cuisines": "Protein-rich"
+                    }
+                ]
+            },
+            {
+                "id": "202305",
+                "info": {
+                    "name": "Snacks and Munchies",
+                    "cloudinaryImageId": "https://i.ytimg.com/vi/7RGTb8_be0I/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDr-3R7Jc_AHcOlcpMiLosUzrHzwg",
+                    "cuisines": ""
+                },
+                "ItemsMenu": [
+                    {
+                        "id": "C01",
+                        "name": "Lay's American Style Cream & Onion Potato Chips",
+                        "cuisines": "Crispy & salty",
+                        "rate" : 10,
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/dbc4392c-49da-43f5-ad21-bdf05621cbf5.jpg?ts=1714825386"
+                        
+                    },
+                    {
+                        "id": "C02",
+                        "name": "Lay's West Indies Hot n Sweet Chilli Flavour Potato Chips",
+                        "cuisines": "Hot n Sweet Chilli",
+                        "rate" : 10,
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/289152a.jpg?ts=1684345618"
+                    },
+                    {
+                        "id": "Ch03",
+                        "name": "Lay's Spanish Tomato Tango Potato Chips",
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/fb313b80-b5f2-4957-b9bf-11fc2c97615d.jpg?ts=1707312781",
+                        "rate" : 10,
+                        "cuisines": "Tomato Tango"
+                    },
+                    {
+                        "id": "Ch04",
+                        "name": "Lay's India's Magic Masala Potato Chips",
+                        "cuisines": "Masala Magic",
+                        "rate" : 10,
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/28e2bfb3-ca64-432f-916e-32cac6ede709.jpg?ts=1726832118"
+                    },
+                    {
+                        "id": "Ch05",
+                        "name": "Lay's Classic Salted Potato Chips",
+                        "cuisines": "Classic Salted",
+                        "rate" : 10,
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/57435a.jpg?ts=1688627217"
+                    },
+                    {
+                        "id": "Ch06",
+                        "name": "Uncle Chipps Spicy Treat Flavour Potato Chips",
+                        "cuisines": "Spicy Treat",
+                        "rate" : 10,
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/637aa24b-46a7-42a3-9fb6-ee8d524caf05.jpg?ts=1727092588"
+                    },
+                    {
+                        "id": "Ch07",
+                        "name": "Haldiram's Classic Salted Potato Chips",
+                        "cuisines": "Classic Salted",
+                        "rate" : 10,
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/e6022710-b1e5-4e23-809f-b7d1ff20f561.jpg"
+                    },
+                    {
+                        "id": "Ch08",
+                        "name": "Haldiram's Pudina Treat Potato Chips",
+                        "cuisines": "Pudina Treat",
+                        "rate" : 10,
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/9852aee6-9cae-4830-9ddc-15d0f86d5d1f.jpg"
+                    },
+                    {
+                        "id": "Ch09",
+                        "name": "Haldiram  Magic Masala Potato Chips",
+                        "cuisines": "Classic mast masala",
+                        "rate" : 10,
+                        "cloudinaryImageId" : "https://www.bigbasket.com/media/uploads/p/xxl/70000875_5-haldirams-chips-mast-masala.jpg"
+                    },
+                    {
+                        "id": "C21",
+                        "name": "Lay's American Style Cream & Onion Potato Chips",
+                        "cuisines": "Crispy & salty",
+                        "rate" : 20,
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/dbc4392c-49da-43f5-ad21-bdf05621cbf5.jpg?ts=1714825386"
+                        
+                    },
+                    {
+                        "id": "C22",
+                        "name": "Lay's West Indies Hot n Sweet Chilli Flavour Potato Chips",
+                        "cuisines": "Hot n Sweet Chilli",
+                        "rate" : 20,
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/289152a.jpg?ts=1684345618"
+                    },
+                    {
+                        "id": "Ch23",
+                        "name": "Lay's Spanish Tomato Tango Potato Chips",
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/fb313b80-b5f2-4957-b9bf-11fc2c97615d.jpg?ts=1707312781",
+                        "rate" : 20,
+                        "cuisines": "Tomato Tango"
+                    },
+                    {
+                        "id": "Ch24",
+                        "name": "Lay's India's Magic Masala Potato Chips",
+                        "cuisines": "Masala Magic",
+                        "rate" : 20,
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/28e2bfb3-ca64-432f-916e-32cac6ede709.jpg?ts=1726832118"
+                    },
+                    {
+                        "id": "Ch25",
+                        "name": "Lay's Classic Salted Potato Chips",
+                        "cuisines": "Classic Salted",
+                        "rate" : 20,
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/57435a.jpg?ts=1688627217"
+                    },
+                    {
+                        "id": "Ch26",
+                        "name": "Uncle Chipps Spicy Treat Flavour Potato Chips",
+                        "cuisines": "Spicy Treat",
+                        "rate" : 20,
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/637aa24b-46a7-42a3-9fb6-ee8d524caf05.jpg?ts=1727092588"
+                    },
+                    {
+                        "id": "Ch27",
+                        "name": "Haldiram's Classic Salted Potato Chips",
+                        "cuisines": "Classic Salted",
+                        "rate" : 20,
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/e6022710-b1e5-4e23-809f-b7d1ff20f561.jpg"
+                    },
+                    {
+                        "id": "Ch28",
+                        "name": "Haldiram's Pudina Treat Potato Chips",
+                        "cuisines": "Pudina Treat",
+                        "rate" : 20,
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/9852aee6-9cae-4830-9ddc-15d0f86d5d1f.jpg"
+                    },
+                    {
+                        "id": "Ch29",
+                        "name": "Haldiram  Magic Masala Potato Chips",
+                        "cuisines": "Classic mast masala",
+                        "rate" : 20,
+                        "cloudinaryImageId" : "https://www.bigbasket.com/media/uploads/p/xxl/70000875_5-haldirams-chips-mast-masala.jpg"
+                    },
+                    {
+                        "id": "K1",
+                        "name": "Kurkure Masala Munch Crisps ",
+                        "cuisines": "Masala Munch",
+                        "rate" : 10,
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/de5c8f6f-d320-4543-ae7c-08437c2e91e6.jpg?ts=1717747398"
+                    },
+                    {
+                        "id": "K2",
+                        "name": "Kurkure Puffcorn Yummy Cheese Puffs",
+                        "cuisines": "Yummy Cheese",
+                        "rate" : 10,
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/70c9bfb0-e903-45b1-8cf6-8812422f4aa4.jpg?ts=1716873741"
+                    },
+                    {
+                        "id": "K3",
+                        "name": "Haldiram's Takatak Chatpata Masala Stick",
+                        "cuisines": "Chatpata Masala",
+                        "rate" : 10,
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/482828a.jpg?ts=1688628430"
+                    },
+                    {
+                        "id": "K4",
+                        "name": "Bingo Mad Angles Achaari Masti Crisps",
+                        "cuisines": "Masala Munch",
+                        "rate" : 10,
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/1e6bd63b-47c5-4ee8-b56e-5f8434112873.jpg?ts=1728051084"
+                    },
+                    {
+                        "id": "K5",
+                        "name": "Haldiram's Snac Lite Desi Punch Fun Fries Crisps",
+                        "cuisines": "Desi Punch",
+                        "rate" : 10,
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/435cd714-b3de-4f18-9076-68e29815bc4d.jpg"
+                    },
+                    {
+                        "id": "K6",
+                        "name": "Bingo Tedhe Medhe Masala Tadka Crisps",
+                        "cuisines": "Masala Tadka",
+                        "rate" : 10,
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/507b8257-359e-4a35-9ff0-2e3ac59725dc.jpg?ts=1717762408"
+                    },
+                    {
+                        "id": "K7",
+                        "name": "Crax Curls Chatpata Masala Crisps",
+                        "cuisines": "Chatpata Masala",
+                        "rate" : 5,
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/c9c2af13-a6a9-4daa-b3e0-1ebf1e0fd291.jpg?ts=1732189607"
+                    },
+                    {
+                        "id": "K7",
+                        "name": "Crax Fritts Corn & Potato Stick",
+                        "cuisines": "Cream & Onion",
+                        "rate" : 5,
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/05f465b1-a0fd-40df-ba0d-b03485058e18.jpg?ts=1716876827"
+                    },
+                    {
+                        "id": "K7",
+                        "name": "Crax Corn Rings Masala Mania Puffs",
+                        "cuisines": "Masala Mania",
+                        "rate" : 5,
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/97f4caf4-b62d-4e6b-9823-3a3378a7c8c8.jpg?ts=1729851259"
+                    },
+                    {
+                        "id": "K8",
+                        "name": "Bingo Tedhe Medhe Masala Tadka Crisps",
+                        "cuisines": "Masala Tadka",
+                        "rate" : 5,
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/507b8257-359e-4a35-9ff0-2e3ac59725dc.jpg?ts=1717762408"
+                    },
+                    {
+                        "id": "K6",
+                        "name": "Bingo Tedhe Medhe Masala Tadka Crisps",
+                        "cuisines": "Masala Tadka",
+                        "rate" : 10,
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/507b8257-359e-4a35-9ff0-2e3ac59725dc.jpg?ts=1717762408"
+                    }
+                ]
+            },
+            {
+                "id": "202301_1",
+                "info": {
+                    "name": "Chocolates & Sweets",
+                    "cloudinaryImageId": "https://noongifts.com/cdn/shop/files/cadbury-dairy-milk-5-star-chocolates-kit-kat-gift-hamper.jpg?v=1697606316",
+                    "cuisines": ""
+                },
+                "ItemsMenu": [
+                    {
+                        "id": "C1",
+                        "name": "Cadbury Dairy Milk Chocolate Bar",
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=200/app/assets/products/sliding_images/jpeg/69b1f251-2c5b-4455-adec-a8606084b9ea.jpg?ts=1730793131",
+                        "rate" : 10,
+                        "cuisines": "Smooth chocolaty delight"
+                    },
+                    {
+                        "id": "C2",
+                        "name": "Cadbury Dairy Milk Chocolate Bar",
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=200/app/assets/products/sliding_images/jpeg/69b1f251-2c5b-4455-adec-a8606084b9ea.jpg?ts=1730793131",
+                        "rate" : 20,
+                        "cuisines": "Smooth chocolaty delight"
+                    },
+                    {
+                        "id": "C3",
+                        "name": "Cadbury Dairy Milk Chocolate Bar",
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=200/app/assets/products/sliding_images/jpeg/69b1f251-2c5b-4455-adec-a8606084b9ea.jpg?ts=1730793131",
+                        "rate" : 40,
+                        "cuisines": "Smooth chocolaty delight"
+                    },
+                    {
+                        "id": "C4",
+                        "name": "Nestle KitKat Crispy & Creamy",
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=200/app/assets/products/sliding_images/jpeg/cfadfb99-6ffc-4d86-8b56-ed0c9d7d5b15.jpg?ts=1727792748",
+                        "rate" : 10,
+                        "cuisines": "Crispy Creamy Treat: Enjoy The Perfect Mix Of Crispy Wafer And Smooth"
+                    },
+                    {
+                        "id": "C5",
+                        "name": "Nestle KitKat Crispy & Creamy",
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=200/app/assets/products/sliding_images/jpeg/cfadfb99-6ffc-4d86-8b56-ed0c9d7d5b15.jpg?ts=1727792748",
+                        "rate" : 20,
+                        "cuisines": "Crispy Creamy Treat: Enjoy The Perfect Mix Of Crispy Wafer And Smooth"
+                    },
+                    {
+                        "id": "C5",
+                        "name": "Nestle KitKat Crispy & Creamy",
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=200/da/cms-assets/cms/product/d93bf94b-91fc-4bb2-baa0-b247d075b093.jpg?ts=1730702850",
+                        "rate" : 80,
+                        "cuisines": "Crispy Creamy Treat: Enjoy The Perfect Mix Of Crispy Wafer And Smooth"
+                    },
+                    {
+                        "id": "C7",
+                        "name": "Cadbury 5 Star Chocolate Filled Bar",
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=200/da/cms-assets/cms/product/eb5faf1b-5a24-4e33-8192-ac31687ef85b.jpg?ts=1729854463",
+                        "rate" : 10,
+                        "cuisines": "Caramel and nougat centre"
+                    },
+                    {
+                        "id": "C8",
+                        "name": "Snickers Peanut Filled Bar",
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=200/app/assets/products/sliding_images/jpeg/398c24b6-90eb-48fe-b08d-11bef8970b31.jpg?ts=1728284271",
+                        "rate" : 10,
+                        "cuisines": "Caramel and nougat centre"
+                    },
+                    {
+                        "id": "C9",
+                        "name": "Munch ",
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/aed2f85b-da2d-4e47-a505-490f94e304de.jpg?ts=1732527787",
+                        "rate" : 10
+                        
+                    },
+                    {
+                        "id": "C10",
+                        "name": "Munch ",
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/aed2f85b-da2d-4e47-a505-490f94e304de.jpg?ts=1732527787",
+                        "rate" : 5
+                    },
+                    {
+                        "id": "C11",
+                        "name": "Munch ",
+                        "cloudinaryImageId" : "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/aed2f85b-da2d-4e47-a505-490f94e304de.jpg?ts=1732527787",
+                        "rate" : 5
+                    },
+                    {
+                        "id": "209",
+                        "name": "Chewing Gum",
+                        "cuisines": "Minty & refreshing"
+                    },
+                    {
+                        "id": "309",
+                        "name": "Chocolate Toffee",
+                        "cuisines": "Rich & creamy"
+                    },
+                    {
+                        "id": "409",
+                        "name": "Jelly Beans",
+                        "cuisines": "Fruity & chewy"
+                    },
+                    {
+                        "id": "509",
+                        "name": "Lollipops",
+                        "cuisines": "Fun & flavorful"
+                    }
+                ]
+            },
+            {
+                "id": "202355_2",
+                "info": {
+                    
+                    "name": "Cold Drinks & Juices",
+                    "cloudinaryImageId": "https://c8.alamy.com/comp/MGCHDE/poznan-poland-apr-6-2018-bottles-of-global-soft-drink-brands-including-products-of-coca-cola-company-and-pepsico-MGCHDE.jpg",
+                    "cuisines": ""
+                },
+                "ItemsMenu" : [
+                        
+                        {
+                            "id": "D2",
+                            "name" : "Coca-Cola",
+                            "cloudinaryImageId" :"https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/fec89b7b-8a13-477e-b750-7a52e82828a0.jpg?ts=1717747523",
+                            "rate" : 50,
+                            "weigth":"1L",
+                            "cuisines" : "Cola"
+                        },
+                        {
+                            "id": "Co1",
+                            "name" : "Coca-Cola",
+                            "cloudinaryImageId" :"https://www.bigbasket.com/media/uploads/p/l/94411_2-coca-cola-soft-drink.jpg",
+                            "rate" : 20,
+                            "weigth":"250ml",
+                            "cuisines" : "Cola"
+                        },
+                        {
+                            "id": "D3",
+                            "name" : "Coca-Cola Soft Drinks",
+                            "cloudinaryImageId" :"https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/fec89b7b-8a13-477e-b750-7a52e82828a0.jpg?ts=1717747523",
+                            "rate" : 90,
+                            "weigth" : "2L",
+                            "cuisines" : "Cola"
+                        },
+                        {
+                            "id": "D4",
+                            "name" : "Thums Up Soft Drink (750 ml)",
+                            "cloudinaryImageId" :"https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/e69c587d-802a-40eb-a40b-a6bc9623526d.jpg?ts=1707312325",
+                            "rate" : 40,
+                            "weigth":"500ml",
+                            "cuisines" : "Cola"
+                        },
+                        {
+                            "id": "D5",
+                            "name" : "Thums Up Soft Drink",
+                            "cloudinaryImageId" :"https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/e69c587d-802a-40eb-a40b-a6bc9623526d.jpg?ts=1707312325",
+                            "rate" : 50,
+                            "weigth":"500ml",
+                            "cuisines" : "Cola"
+                        },
+                        {
+                            "id": "D6",
+                            "name" : "Thums Up Soft Drink",
+                            "cloudinaryImageId" :"https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/e69c587d-802a-40eb-a40b-a6bc9623526d.jpg?ts=1707312325",
+                            "rate" : 90,
+                            "weigth":"2L",
+                            "cuisines" : "Cola"
+                        },
+                        {
+                            "id": "D7",
+                            "name" : "Sprite Lime Flavored Soft Drink ",
+                            "cloudinaryImageId" :"https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/0f87f19e-66da-48cd-8c75-343abf732948.jpg?ts=1707312325",
+                            "rate" : 40,
+                            "weigth":"750ml",
+                            "cuisines" : "Lime"
+                        },
+                        {
+                            "id": "D8",
+                            "name" : "Sprite Lime Flavored Soft Drink ",
+                            "cloudinaryImageId" :"https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/0f87f19e-66da-48cd-8c75-343abf732948.jpg?ts=1707312325",
+                            "rate" : 50,
+                            "weigth":"1L",
+                            "cuisines" : "Lime"
+                        },
+                        {
+                            "id": "D9",
+                            "name" : "Sprite Lime Flavored Soft Drink ",
+                            "cloudinaryImageId" :"https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/10562a.jpg?ts=1690812772",
+                            "rate" : 90,
+                            "weigth":"2L",
+                            "cuisines" : "Lime"
+                        },
+                        {
+                            "id": "D10",
+                            "name" : "Sprite Lime Flavored Soft Drink ",
+                            "cloudinaryImageId" :"https://www.bigbasket.com/media/uploads/p/l/402837_1-sprite-soft-drink.jpg",
+                            "rate" : 20,
+                            "weigth":"250ml",
+                            "cuisines" : "Lime"
+                        },
+                        {
+                            "id": "D12",
+                            "name" : "Pepsi Cola Soft Drink",
+                            "cloudinaryImageId" :"https://www.bigbasket.com/media/uploads/p/l/40216379_2-pepsi-soft-drink.jpg",
+                            "rate" : 20,
+                            "weigth":"400ml",
+                            "cuisines" : "Cola"
+                        },
+                        {
+                            "id": "D14",
+                            "name" : "Pepsi Cola Soft Drink",
+                            "cloudinaryImageId" :"https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/0b21a0a6-065f-49ab-b2d2-3de2789dd507.jpg?ts=1711970562",
+                            "rate" : 90,
+                            "weigth":"2.5L",
+                            "cuisines" : "Cola"
+                        },
+                        {
+                            "id": "D15",
+                            "name" : "Limca Lime 'N' Lemon Soft Drink",
+                            "cloudinaryImageId" :"https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/9a7f01e0-e63e-407e-bfc9-449c165f7a1c.jpg?ts=1728051043",
+                            "rate" : 20,
+                            "weigth":"250ml",
+                            "cuisines" : "Lime & Lemon"
+                        },
+                        {
+                            "id": "D16",
+                            "name" : "Limca Lime 'N' Lemon Soft Drink",
+                            "cloudinaryImageId" :"https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/9a7f01e0-e63e-407e-bfc9-449c165f7a1c.jpg?ts=1728051043",
+                            "rate" : 40,
+                            "weigth":"750ml",
+                            "cuisines" : "Lime & Lemon"
+                        },
+                        {
+                            "id": "D17",
+                            "name" : "Limca Lime 'N' Lemon Soft Drink",
+                            "cloudinaryImageId" :"https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/9a7f01e0-e63e-407e-bfc9-449c165f7a1c.jpg?ts=1728051043",
+                            "rate" : "50",
+                            "weigth":"1L",
+                            "cuisines" : "Lime & Lemon"
+                        },
+                        {
+                            "id": "D17",
+                            "name" : "Limca Lime 'N' Lemon Soft Drink",
+                            "cloudinaryImageId" :"https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/9a7f01e0-e63e-407e-bfc9-449c165f7a1c.jpg?ts=1728051043",
+                            "rate" : 90,
+                            "weigth":"2L",
+                            "cuisines" : "Lime & Lemon"
+                        },
+                        {
+                            "id": "D13",
+                            "name" : "Pepsi Cola Soft Drink",
+                            "cloudinaryImageId" :"https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/7a914a42-9077-4a7d-becc-e79904d9d07f.jpg?ts=1717418544",
+                            "rate" : 40,
+                            "weigth":"500ml",
+                            "cuisines" : "Cola"
+                        },
+                        {
+                            "id": "D19",
+                            "name" : "Frooti Mango Drink",
+                            "cloudinaryImageId" :"https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/e24eda9c-3cc7-4e66-bc2b-80383eb85a80.jpg?ts=1715152398",
+                            "rate" : 10,
+                            "cuisines" : ""
+                        },
+                        {
+                            "id": "D20",
+                            "name" : "Maaza Mango Drink 600 ml",
+                            "cloudinaryImageId" :"https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/1e45115d-9068-429b-9edc-9f437dd351df.jpg?ts=1707312323",
+                            "rate" : 40,
+                            "cuisines" : "Mango Drink"
+                        },
+                        {
+                            "id": "D21",
+                            "name" : "Frooti Mango Drink",
+                            "cloudinaryImageId" :"https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/6c428434-df61-41a1-886a-802a41269705.jpg?ts=1715152371",
+                            "rate" : 40,
+                            "cuisines" : "Mango Drink"
+                        },
+                        {
+                            "id": "D22",
+                            "name" : "Frooti Mango Drink",
+                            "cloudinaryImageId" :"https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/73c3ea56-6c7e-44ac-be94-1cb57b3e4248.jpg?ts=1715152372",
+                            "rate" : 60,
+                            "weigth" : "1.2L",
+                            "cuisines" : "Mango Drink"
+                        },
+                        {
+                            "id": "D23",
+                            "name" : "Frooti Mango Drink",
+                            "cloudinaryImageId" :"https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/44177510-9044-4760-90e7-11b45f71c3be.jpg?ts=1715152369",
+                            "rate" : 90,
+                            "weigth" : "1.8L",
+                            "cuisines" : "Mango Drink"
+                        }
+                    ]
+              },
+              {
+                "id": "202314",
+                "info": {
+                    
+                    "name": "BreakFast & Instant Food",
+                    "cloudinaryImageId": "https://beast-of-traal.s3.ap-south-1.amazonaws.com/2021/02/maggi-yippee-oodles.png",
+                    "cuisines": ""
+                },
+                "ItemsMenu" : [
+                        
+                        {
+                            "id": "M1",
+                            "name" : "Maggi 2 - Minute Instant Noodles",
+                            "cloudinaryImageId": "https://www.bigbasket.com/media/uploads/p/l/266160_24-maggi-masala-instant-noodles-vegetarian.jpg",
+                            "rate": 15,
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "M2",
+                            "name" : "Maggi 2 - Minute Instant Noodles",
+                            "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/06e91d34-6d8d-421c-bdeb-60c889a0f666.jpg?ts=1723375352",
+                            "rate": 30,
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "M3",
+                            "name" : "Sunfeast Yippee! Magic Masala Instant Noodles, 60 g",
+                            "cloudinaryImageId": "https://www.bigbasket.com/media/uploads/p/l/287005_16-sunfeast-yippee-magic-masala-noodles.jpg",
+                            "rate": 10,
+                            "cuisines" : "Long, non-sticky noodles making it slurpy delicious"
+                        },
+                        {
+                            "id": "M4",
+                            "name" : "Sunfeast Yippee! Magic Masala Instant Noodles",
+                            "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/a1e6d308-c043-4957-813e-31b2ac9b1dc5.jpg?ts=1723098356",
+                            "rate": 51,
+                            "cuisines" : "Long, non-sticky noodles making it slurpy delicious"
+                        }
+                    ]
+              },
+              {
+                "id": "202309",
+                "info": {
+                    
+                    "name": "Candies & Gums",
+                    "cloudinaryImageId": "https://5.imimg.com/data5/SELLER/Default/2022/2/RL/KO/BI/49615508/dry-fruit-toffee-500x500.jpeg",
+                    "cuisines": ""
+                },
+                "ItemsMenu" : [
+                        
+                        {
+                            "id": "C1",
+                            "name" : "Chupa Chups 80g",
+                            "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/523829a.jpg",
+                            "rate": 48,
+                            "cuisines" : ""
+                        },
+                        {
+                            "id": "C2",
+                            "name" : "Chupa Chups Fruit Candy",
+                            "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/b8760532-ff5b-4451-aacf-8037ec6da880.jpg?ts=1732624518",
+                            "rate": 35,
+                            "cuisines" : ""
+                        },
+                        {
+                            "id": "C3",
+                            "name" : "Pulse Kachcha Aam / Mango Candy",
+                            "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/aa4c477e-08d8-479d-be21-76e061e13c0d.jpg?ts=1718169096",
+                            "rate": 54,
+                            "cuisines" : ""
+                        },
+                        {
+                            "id": "C4",
+                            "name" : "Kopiko Cappuccino Candy - Family Pack",
+                            "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/737c47d4-5c30-4a36-8de3-15b539edcff7.jpg?ts=1726830247",
+                            "rate": 45,
+                            "cuisines" : ""
+                        },
+                        {
+                            "id": "C5",
+                            "name" : "Parle Melody Chocolaty Candy",
+                            "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/f82653d9-e852-4f17-be98-683f05325201.jpg?ts=1708591846",
+                            "rate": 45,
+                            "cuisines" : ""
+                        }
+                    ]
+              },
+              {
+                "id": "202320",
+                "info": {
+                    
+                    "name": "Biscuits & Bakery",
+                    "cloudinaryImageId": "https://i.ytimg.com/vi/x3lK_Hj1Ak0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD08hl4CFaEtT7CNxyhAYR5jHIWgA",
+                    "cuisines": ""
+                },
+                "ItemsMenu" : [
+                        
+                    {
+                        "id": "BB1",
+                        "name" : "Britannia NutriChoice Digestive Biscuit",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/65bdeb44-09bf-493f-8da2-f8e2a822c6af.jpg?ts=1720000649",
+                        "rate": 10,
+                        "weigth":"100g",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "BB2",
+                        "name" : "Parle-G Original Gluco Biscuit",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/ebb74aad-4026-48ca-a50d-ede6bb2debaf.jpg?ts=1723794961",
+                        "rate": 5,
+                        "weigth":"100g",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "BB3",
+                        "name" : "Parle-G Original Gluco Biscuit",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/ebb74aad-4026-48ca-a50d-ede6bb2debaf.jpg?ts=1723794961",
+                        "rate": 10,
+                        "weigth":"200g",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "BB4",
+                        "name" : "Britannia Good Day Butter Cookies Biscuits",
+                        "cloudinaryImageId": "https://fetchnbuy.in/cdn/shop/products/image_19_z4kx-rb_1920x.jpg?v=1642231906",
+                        "rate": 10,
+                        "weigth":"100g",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "BB5",
+                        "name" : "Britannia Good Day Cashew Biscuit",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/c86f28aa-9922-405a-99c1-ed08a5ba00c7.jpg?ts=1722761285",
+                        "rate": 10,
+                        "weigth":"100g",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "BB6",
+                        "name" : "Hide & Seek Chocolate Chip Cookies ",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/82b635f6-ad87-4c65-8e2c-fd879ebbfd6b.jpg?ts=1723792941",
+                        "rate": 10,
+                        "weigth":"100g",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "BB7",
+                        "name" : "Hide & Seek Chocolate Chip Cookies ",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/c86f28aa-9922-405a-99c1-ed08a5ba00c7.jpg?ts=1722761285",
+                        "rate": 10,
+                        "weigth":"100g",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "BB8",
+                        "name" : "Cadbury Oreo Biscuit",
+                        "cloudinaryImageId": "https://www.bakindia.in/product-images/oreo.PNG/335898000000920628/700x700",
+                        "rate": 10,
+                        "weigth":"100g",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "BB9",
+                        "name" : "Britannia The Original Bourbon Creme",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/c3a91bab-ca1d-43ff-820d-326a5b6b81a4.jpg?ts=1720000628",
+                        "rate": 10,
+                        "weigth":"100g",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "BB10",
+                        "name" : "Anmol Yummy - Chocolate Flavoured Sandwich Biscuits",
+                        "cloudinaryImageId": "https://www.bigbasket.com/media/uploads/p/l/40050173_9-anmol-biscuits-yummy-chocolate.jpg",
+                        "rate": 5,
+                        "weigth":"35g",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "BB11",
+                        "name" : "Anmol Yummy - Chocolate Flavoured Sandwich Biscuits",
+                        "cloudinaryImageId": "https://www.bigbasket.com/media/uploads/p/l/40050173_9-anmol-biscuits-yummy-chocolate.jpg",
+                        "rate": 10,
+                        "weigth":"100g",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "BB12",
+                        "name" : "CNC Biscuits",
+                        "cloudinaryImageId": "https://img.clevup.in/285171/1681827209834_SKU-0042_0.jpeg?width=600&format=webp",
+                        "rate": 5,
+                        "weigth":"",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "BB13",
+                        "name" : "CNC Biscuits",
+                        "cloudinaryImageId": "https://img.clevup.in/285171/1681827209834_SKU-0042_0.jpeg?width=600&format=webp",
+                        "rate": 5,
+                        "weigth":"",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "BB13",
+                        "name" : "CNC Biscuits",
+                        "cloudinaryImageId": "https://img.clevup.in/285171/1681827209834_SKU-0042_0.jpeg?width=600&format=webp",
+                        "rate": 10,
+                        "weigth":"",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "BB15",
+                        "name" : "Anmol Biscuits - 2 In 1",
+                        "cloudinaryImageId": "https://www.bigbasket.com/media/uploads/p/l/40050158_10-anmol-biscuits-2-in-1.jpg",
+                        "rate": 5,
+                        "weigth":"",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "BB16",
+                        "name" : "Anmol Biscuits - 2 In 1",
+                        "cloudinaryImageId": "https://www.bigbasket.com/media/uploads/p/l/40050158_10-anmol-biscuits-2-in-1.jpg",
+                        "rate": 10,
+                        "weigth":"",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "BB17",
+                        "name" : "Britannia Choco Chill Slice Cake",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/7494b7c5-f921-4b4b-843a-354262e33a7a.jpg?ts=1723375245",
+                        "rate": 10,
+                        "weigth":"",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "BB18",
+                        "name" : "Britannia Slice Cake",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/53918915-e24a-41f5-be93-4c65eeeda253.jpg?ts=1723375144",
+                        "rate": 10,
+                        "weigth":"",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "BB19",
+                        "name" : "Britannia Pineapple Plunge Slice Cake",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/40ca1051-2985-4659-8bc3-aa328972880d.jpg?ts=1723375512",
+                        "rate": 10,
+                        "weigth":"",
+                        "cuisines" : ""
+                    }
+
+                    ]
+              },
+              {
+                "id": "202325",
+                "info": {
+                    
+                    "name": "Tea, Coffee & Health Drink",
+                    "cloudinaryImageId": "https://gpcdn.ams3.cdn.digitaloceanspaces.com/deals/bigbazaar%20(1).jpg",
+                    "cuisines": ""
+                },
+                "ItemsMenu" : [
+                        
+                    {
+                        "id": "T1",
+                        "name" : "Tata Tea Elaichi Chai Tea Pouch",
+                        "cloudinaryImageId": "https://rukminim2.flixcart.com/image/612/612/xif0q/tea/q/v/c/250-tea-elaichi-chai-1-pouch-regular-tea-tata-powder-original-imagwgr3u8hsfjt8.jpeg?q=70",
+                        "rate": 80,
+                        "weigth":"250g",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "T2",
+                        "name" : "Tata Tea Elaichi Chai Tea Pouch",
+                        "cloudinaryImageId": "https://rukminim2.flixcart.com/image/612/612/xif0q/tea/q/v/c/250-tea-elaichi-chai-1-pouch-regular-tea-tata-powder-original-imagwgr3u8hsfjt8.jpeg?q=70",
+                        "rate": 10,
+                        "weigth":"250g",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "T3",
+                        "name" : "Tata Tea Elaichi Chai Tea Pouch",
+                        "cloudinaryImageId": "https://rukminim2.flixcart.com/image/612/612/xif0q/tea/q/v/c/250-tea-elaichi-chai-1-pouch-regular-tea-tata-powder-original-imagwgr3u8hsfjt8.jpeg?q=70",
+                        "rate": 40,
+                        "weigth":"250g",
+                        "cuisines" : ""
+                    },
+                      
+                    {
+                        "id": "T4",
+                        "name" : "Tata Tea Elaichi Chai Tea Pouch",
+                        "cloudinaryImageId": "https://rukminim2.flixcart.com/image/612/612/xif0q/tea/q/v/c/250-tea-elaichi-chai-1-pouch-regular-tea-tata-powder-original-imagwgr3u8hsfjt8.jpeg?q=70",
+                        "rate": 40,
+                        "weigth":"250g",
+                        "cuisines" : ""
+                    },
+                        {
+                            "id": "59",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        }
+                    ]
+              },
+              {
+                "id": "202342",
+                "info": {
+                    
+                    "name": "Atta, Rice & Dal",
+                    "cloudinaryImageId": "https://storage.googleapis.com/shy-pub/49210/1626252512397_Screenshot_20210714-140219.png",
+                    "cuisines": ""
+                },
+                "ItemsMenu" : [
+                        
+                    {
+                        "id": "AA1",
+                        "name" : "Aashirvaad Shudh Chakki Atta",
+                        "cloudinaryImageId": "https://s7ap1.scene7.com/is/image/itcportalprod/aashirvaad%20chakki?fmt=webp-alpha",
+                        "rate": 455,
+                        "weigth":"10kg",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "AA2",
+                        "name" : "Aashirvaad Shudh Chakki Atta",
+                        "cloudinaryImageId": "https://s7ap1.scene7.com/is/image/itcportalprod/aashirvaad%20chakki?fmt=webp-alpha",
+                        "rate": 220,
+                        "weigth":"5kg",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "AA4",
+                        "name" : "Aashirvaad Shudh Chakki Atta",
+                        "cloudinaryImageId": "https://www.bigbasket.com/media/uploads/p/l/40255240_1-rishta-whole-wheat-flourchakki-atta-rich-in-fibre-iron-promotes-healthy-growth.jpg",
+                        "rate": 220,
+                        "weigth":"5kg",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "AA5",
+                        "name" : "Aashirvaad Shudh Chakki Atta",
+                        "cloudinaryImageId": "https://www.bigbasket.com/media/uploads/p/l/40255240_1-rishta-whole-wheat-flourchakki-atta-rich-in-fibre-iron-promotes-healthy-growth.jpg",
+                        "rate": 420,
+                        "weigth":"5kg",
+                        "cuisines" : ""
+                    }
+                    ]
+              },
+              {
+                "id": "202321",
+                "info": {
+                    
+                    "name": "Masale",
+                    "cloudinaryImageId": "https://www.spicevillage.eu/cdn/shop/collections/EVEREST.jpg?v=1654689454",
+                    "cuisines": ""
+                },
+                "ItemsMenu" : [
+                        
+                    {
+                        "id": "MM1",
+                        "name" : "Everest Kitchen King Masala",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/293a8750-5b05-4804-a68b-c498be170950.jpg?ts=1707312309",
+                        "rate": 47,
+                        "weigth":"50g",
+                        "cuisines" : "Made from a blend of traditional spices"
+                    },
+                    {
+                        "id": "MM2",
+                        "name" : "Everest Sabzi Masala",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/2e3dfe12-a261-4926-bb28-cd58db1f92b7.jpg?ts=1707312311",
+                        "rate": 38,
+                        "weigth":"50g",
+                        "cuisines" : "Sabzi Masala"
+                    },
+                    {
+                        "id": "MM3",
+                        "name" : "Catch Turmeric Powder/Haldi ",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/10899a.jpg?ts=1688463549",
+                        "rate": 35,
+                        "weigth":"100g",
+                        "cuisines" : "Turmeric Powder"
+                    },
+                    {
+                        "id": "MM4",
+                        "name" : "Everest Garam Masala",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/85762a.jpg?ts=1690817397",
+                        "rate": 35,
+                        "weigth":"100g",
+                        "cuisines" : "Turmeric Powder"
+                    },
+                    {
+                        "id": "MM5",
+                        "name" : "Catch Chicken Masala ",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/dfcba197-a56d-46f4-8703-ea99e9d4c734.jpg?ts=1730808978",
+                        "rate": 5,
+                        "weigth":"",
+                        "cuisines" : "Chicken Masala"
+                    }
+                    ]
+              },
+              {
+                "id": "202316",
+                "info": {
+                    
+                    "name": "Oil",
+                    "cloudinaryImageId": "https://5.imimg.com/data5/SELLER/Default/2022/10/ZO/IZ/JB/127479447/fortune-oil-pack-550x550-500x500.jpg",
+                    "cuisines": ""
+                },
+                "ItemsMenu" : [
+                        
+                    {
+                        "id": "O1",
+                        "name" : "Fortune Soya Health Refined Soyabean Oil",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/b1621d2f-0aa2-4ee0-9fd9-07b940aa5aa7.jpg?ts=1707312307",
+                        "rate": 160,
+                        "weigth":"1L",
+                        "cuisines" : "Made from a blend of traditional spices"
+                    },
+                    {
+                        "id": "O2",
+                        "name" : "Fortune Premium Kachi Ghani Pure Mustard",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/b1621d2f-0aa2-4ee0-9fd9-07b940aa5aa7.jpg?ts=1707312307",
+                        "rate": 185,
+                        "weigth":"1L",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "O3",
+                        "name" : "Baba Ji PREMIUM KACHI GHANI Mustard Oil Plastic Bottle ",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/b1621d2f-0aa2-4ee0-9fd9-07b940aa5aa7.jpg?ts=1707312307",
+                        "rate": 85,
+                        "weigth":"500ml",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "O4",
+                        "name" : "Baba Ji PREMIUM KACHI GHANI Mustard Oil Plastic Bottle ",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/b1621d2f-0aa2-4ee0-9fd9-07b940aa5aa7.jpg?ts=1707312307",
+                        "rate": 180,
+                        "weigth":"1l",
+                        "cuisines" : ""
+                    }
+                    ]
+              },
+              {
+                "id": "202301_2",
+                "info": {
+                    
+                    "name": "Sauces & Shampoo",
+                    "cloudinaryImageId": "https://richesm.com/wp-content/uploads/2022/10/Clinic-Plus-Strong-And-Shiny-Shampoo-192-Sachets.jpg",
+                    "cuisines": ""
+                },
+                "ItemsMenu" : [
+                        
+                        {
+                            "id": "S1",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "209",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "309",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "49",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "59",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        }
+                    ]
+              },
+              {
+                "id": "202314_1",
+                "info": {
+                    
+                    "name": "Baby Care",
+                    "cloudinaryImageId": "https://m.media-amazon.com/images/I/71XylO2TbCL.jpg",
+                    "cuisines": ""
+                },
+                "ItemsMenu" : [
+                        
+                        {
+                            "id": "109",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "209",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "309",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "49",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        },
+                        {
+                            "id": "59",
+                            "name" : "Cow Milk",
+                            "cuisines" : "Healthy & tasty"
+                        }
+                    ]
+              },
+              {
+                "id": "202336",
+                "info": {
+                    "name": "Washing Powder & Soap",
+                    "cloudinaryImageId": "https://cpimg.tistatic.com/03484537/b/4/Surf-Excel-Detergent-Soaps-Powders.jpg",
+                    "cuisines": ""
+                },
+                "ItemsMenu" : [
+                        
+                    {
+                        "id": "DS1",
+                        "name" : "Surf Excel Quick Wash Detergent Powder",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/11619a.jpg?ts=1695202637",
+                        "rate": 110,
+                        "weigth":"500g",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "DS2",
+                        "name" : "Surf Excel Quick Wash Detergent Powder",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/18555a.jpg?ts=1695815097",
+                        "rate": 10,
+                        "weigth":"250g",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "DS3",
+                        "name" : "Surf Excel Quick Wash Detergent Powder",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/293867a.jpg?ts=1695202946",
+                        "rate": 152,
+                        "weigth":"1Kg",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "DS4",
+                        "name" : "Surf Excel Quick Wash Detergent Powder",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/7c92abaf-2ed1-4eda-a2ae-82b6340eb3dc.jpg?ts=1733227546",
+                        "rate": 10,
+                        "weigth":"80g",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "DS5",
+                        "name" : "Tide Double Power Detergent Powder",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/d80408ae-3a17-4e45-9271-90bb5d899bc3.jpg?ts=1725966011",
+                        "rate": 10,
+                        "weigth":"100g",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "DS6",
+                        "name" : "Tide Double Power Detergent Powder",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/d80408ae-3a17-4e45-9271-90bb5d899bc3.jpg?ts=1725966011",
+                        "rate": 40,
+                        "weigth":"500g",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "DS6",
+                        "name" : "Tide Double Power Detergent Powder",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/9475a6ff-6e61-48a3-a315-917faf3ca20c.jpg?ts=1728648660",
+                        "rate": 132,
+                        "weigth":"1Kg",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "DS7",
+                        "name" : "Tide Detergent Bar",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/19376a.jpg?ts=1703744673",
+                        "rate": 10,
+                        "weigth":"300g",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "DS8",
+                        "name" : "Ghadi Detergent Bar",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/e27f522a-5d16-44b0-a831-b9bc78b0c9e0.jpg?ts=1733143676",
+                        "rate": 10,
+                        "weigth":"300g",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "DS9",
+                        "name" : "Rin Detergent Bar",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/e42d4062-f7ec-4d09-a8f6-d1a0e15dc975.jpg?ts=1714710101",
+                        "rate": 10,
+                        "weigth":"80g",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "DS10",
+                        "name" : "Lux Jasmine & Vitamin E Beauty Soap Mega",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/5f6c9ad6-725a-4c66-a8ad-489a0b32af4e.jpg?ts=1731215225",
+                        "rate": 10,
+                        "weigth":"150g",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "DS11",
+                        "name" : "Dettol Original Germ Protection Bathing Bar",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/93b87e24-607f-40df-85c5-c99f097d5eed.jpg",
+                        "rate": 10,
+                        "weigth":"150g",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "DS12",
+                        "name" : "Santoor Skin Moisturising Sandal & Turmeric Soap",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/28418a.jpg?ts=1704780981",
+                        "rate": 10,
+                        "weigth":"150g",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "DS13",
+                        "name" : "Dove Cream Beauty Bathing Soap",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/52386149-da68-4844-ab96-4342102bc7c4.jpg?ts=1718452643",
+                        "rate": 25,
+                        "weigth":"150g",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "DS16",
+                        "name" : "Godrej No.1 Lime & Aloe Vera Soap",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/d792ad06-3994-45a3-bb41-e5d1e158ed3a.jpg?ts=1727079431",
+                        "rate": 10,
+                        "weigth":"150g",
+                        "cuisines" : ""
+                    },
+                    {
+                        "id": "DS18",
+                        "name" : "Lifebuoy Total 10 Germ Protection Bathing",
+                        "cloudinaryImageId": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/98832ebc-aa5d-4dc7-80f5-b62594d6e308.jpg?ts=1720096768",
+                        "rate": 10,
+                        "weigth":"150g",
+                        "cuisines" : ""
+                    }
+
+                    ]
+              }
+        ]
+    }
+}
