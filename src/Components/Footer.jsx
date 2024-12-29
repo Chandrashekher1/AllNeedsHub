@@ -27,9 +27,22 @@ const Footer = () => {
         <h2 className='font-semibold text-xl text-center mt-4'>Social Links</h2>
         <ul className=' '>
             <SocialIcons/>
-            <li></li>
+
+            <li className='font-semibold text-2xl text-center my-8 underline'>Maps</li>
+
+            <div className="w-full pb-[56.25%] relative">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.2771358256023!2d77.1402501!3d28.471199400000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1f79ea6b8cef%3A0x685cdd68215ac6f9!2sChandu%20General%20Store!5e0!3m2!1sen!2sin!4v1735485541241!5m2!1sen!2sin"
+                allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                className="absolute top-0 left-0 w-full h-full"
+              ></iframe>
+            </div>
+
           </ul>
         </div>
+        
     </div>
   )
 }
