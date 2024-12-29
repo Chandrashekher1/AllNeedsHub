@@ -50,7 +50,7 @@ const ItemsMenu = () => {
 
   return (
     <>
-    <div className="flex flex-wrap ml-4">
+    <div className="flex flex-wrap ml-12">
       {itemsMenu.map((item) => (
         <div key={item.id} className="border m-2 w-32 rounded-lg text-center">
           <img
