@@ -38,7 +38,7 @@ const Checkout = () => {
             Items total <span>₹ {totalRate}</span>
           </p>
           <p className="flex justify-between font-medium">
-            Delivery Charge <span>₹ 0</span>
+            Delivery Charge <span className='line-through text-gray-500 ml-40'>₹ 50 </span><span className=''>₹ 0</span>
           </p>
           <p className="flex justify-between font-bold mt-4">
             Grand Total <span>₹ {totalRate}</span>

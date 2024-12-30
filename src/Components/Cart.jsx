@@ -37,23 +37,23 @@ const Cart = () => {
 
   return (
     <>
-      <button className='font-semibold border p-2 rounded-lg ml-24 bg-red-600 text-white' onClick={handleClearCart}>Clear Cart</button>
+      <button className='font-semibold border p-2 rounded-lg ml-32 bg-red-600 text-white' onClick={handleClearCart}>Clear Cart</button>
       {cartPage && (
-        <div className="overflow-y-auto max-h-screen pb-20">
+        <div className="overflow-y-auto max-h-screen pb-20 relative">
           {cartItems.length > 0 ? (
             cartItems.map((item) => (
-              <div key={item?.id} className="border m-4 flex">
+              <div key={item?.id} className="border m-4 flex flex-col flex-wrap">
                 <img
                   src={item?.cloudinaryImageId}
                   alt=""
                   className="w-16 h-16 object-contain"
                 />
                 <div>
-                  <h2 className="text-wrap text-sm">{item?.name || 'No name'}</h2>
+                  <h2 className="flex text-sm">{item?.name || 'No name'}</h2>
                   <p className="text-gray-500 mt-2">{item?.weight}</p>
                   <p className="mt-2 font-bold">₹ {item?.rate || 'No Price'}</p>
                 </div>
-                <button className='border bg-green-800 text-white h-10 rounded-lg p-1 mt-6 fixed ml-56' onClick={() =>handleRemove(item)}>Remove</button>
+                <button className='border bg-green-800 text-white h-10 rounded-lg p-1 -mt-8 ml-[78%] w-16' onClick={() =>handleRemove(item)}>Remove</button>
               </div>
             ))
           ) : (

@@ -63,7 +63,7 @@ const ItemsMenu = () => {
           <p className="text-gray-600">
             {item.weigth} - {item.cuisines || ""}
           </p>
-          <button className="border cursor-pointer border-green-500 rounded-lg font-semibold text-green-700 my-4 p-2 active:scale-90" onClick={() => handleAddItem(item)}>
+          <button className="border cursor-pointer border-green-500 rounded-lg font-semibold text-green-700 my-4 p-2 active:scale-90 " onClick={() => handleAddItem(item)}>
             ADD ME
           </button>
         </div>

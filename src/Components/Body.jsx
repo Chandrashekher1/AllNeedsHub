@@ -36,8 +36,7 @@ const Body = () => {
 
   return (
     <div>
-      {/* Search Bar */}
-      <div className="flex py-4 mx-8">
+      <div className="flex py-4 mx-12">
         <span className="flex border h-8 border-black bg-gray-200 rounded-l-xl md:h-12">
           <img className="h-4 w-4 m-2 md:h-6" src={search_Logo} alt="search icon" />
           <input
