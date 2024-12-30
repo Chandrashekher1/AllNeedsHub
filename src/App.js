@@ -1,34 +1,32 @@
-import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Outlet} from "react-router-dom";
 import Header from './Components/Header';
 import Body from './Components/Body';
 import Login from './Components/Login';
 import Cart from './Components/Cart';
 import ItemsMenu from './Components/ItemsMenu';
 import Items from "./Components/Items";
-import { Provider } from "react-redux";
+import { Provider, useDispatch } from "react-redux";
 import appStore from "./utils/appStore";
 import Checkout from "./Components/Checkout";
 import PaymentCheckOut from "./Components/PaymentCheckOut";
+import { useEffect } from "react";
+import { getAuth, onAuthStateChanged } from "firebase/auth";
+import { auth } from "./utils/firebase";
+import { addUser, removeUser } from "./utils/userSlice";
 
 const AppLayout = () => (
-  
   <div className="overflow-x-hidden font-sans">
     <Header />
-    <Body/>
+    <Body />
     <Outlet />
-    {/* <Footer/> */}
+    {/* <Footer /> */}
   </div>
 );
-
 
 const appRouter = createBrowserRouter([
   {
     path: "/",
-    element: (
-      <Provider store={appStore}>
-        <AppLayout/>
-      </Provider>
-    ),
+    element: <AppLayout />,
     children: [
       {
         path: "/",
@@ -45,23 +43,44 @@ const appRouter = createBrowserRouter([
       {
         path: "/items/:ItemsId",
         element: <ItemsMenu />,
-
       },
       {
         path: "/checkout/",
         element: <Checkout />,
       },
       {
-        path:"/payment/",
-        element:<PaymentCheckOut/>
-      }
+        path: "/payment/",
+        element: <PaymentCheckOut />,
+      },
     ],
   },
 ]);
 
+const App = () => {
+  const dispatch = useDispatch();
+  // const navigate = useNavigate();
 
-const App = () => (
-  <RouterProvider router={appRouter} />
+  useEffect(() => {
+    onAuthStateChanged(auth, (user) => {
+      if (user) {
+        const { uid, displayName, phoneNumber, email } = user;
+        dispatch(addUser({ uid:uid, email:email, displayName:displayName, phoneNumber:phoneNumber }));
+        
+      } else {
+        dispatch(removeUser());
+       
+      }
+    });
+  }, [dispatch]);
+
+  return <RouterProvider router={appRouter} />;
+};
+
+// Wrap the App component with Provider here
+const Root = () => (
+  <Provider store={appStore}>
+    <App />
+  </Provider>
 );
 
-export default App;
+export default Root;
