@@ -1,33 +1,24 @@
-import React, { useState } from 'react';
+import React, { useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBagShopping, faHouse, faUser } from '@fortawesome/free-solid-svg-icons';
 import { Shop_Logo } from '../utils/constant';
-import { useDispatch, useSelector } from 'react-redux';
-import { getAuth, signOut } from 'firebase/auth';
-import { auth } from '../utils/firebase';
-import { removeUser } from '../utils/userSlice';
+import { useSelector } from 'react-redux';
 
 const Header = () => {
   const cartItems = useSelector((store) => store.cart.items || []);
+  const userLogged = useSelector((store) => store.user);
   const navigate = useNavigate();
 
-  // State for login/logout toggle
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const dispatch = useDispatch()
+  useEffect(() => {
+    if (userLogged) {
+      navigate("/profile/");
+    } else {
+      navigate("/login");
+    }
+  }, [userLogged, navigate]);
 
-  // Handle login/logout toggle
-  const handleAuthToggle = () => {
-    setIsLoggedIn(!isLoggedIn);
-
-      signOut(auth).then(() => {
-        dispatch(removeUser())
-      }).catch((error) => {
-        // An error happened.
-      });
-  };
-
-  const handleLogo = (e) => {
+  const handleLogo = () => {
     navigate("/");
   };
 
@@ -55,15 +46,12 @@ const Header = () => {
           </h3>
         </Link>
         <div>
-         <Link to="/login">
-         <button
-            className="mx-8 flex mt-1"
-            onClick={handleAuthToggle}
-          >
-            <FontAwesomeIcon icon={faUser} />
-            <span className=' text-xs'>{isLoggedIn ? " Sign Out" : " Login"}</span>
-          </button>
-         </Link>
+          <Link to={userLogged ? "/profile" : "/login"}>
+            <button className="mx-8 flex mt-1">
+              <FontAwesomeIcon icon={faUser} />
+              <p className='text-sm -mt-1'>({userLogged ? "Sign Out" : "Login"})</p>
+            </button>
+          </Link>
         </div>
       </div>
     </div>
