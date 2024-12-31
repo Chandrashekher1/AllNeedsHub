@@ -13,6 +13,7 @@ import { useEffect } from "react";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import { auth } from "./utils/firebase";
 import { addUser, removeUser } from "./utils/userSlice";
+import Profile from "./Components/Profile";
 
 const AppLayout = () => (
   <div className="overflow-x-hidden font-sans">
@@ -52,6 +53,10 @@ const appRouter = createBrowserRouter([
         path: "/payment/",
         element: <PaymentCheckOut />,
       },
+      {
+        path:"/profile",
+        element:<Profile/>
+      }
     ],
   },
 ]);
