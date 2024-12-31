@@ -3,7 +3,7 @@ import useOnlineStatus from '../Hooks/useOnlineStatus'
 import { useNavigate } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 import { checkValidateData } from '../utils/validate'
-import { createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile } from "firebase/auth";
+import { createUserWithEmailAndPassword, GoogleAuthProvider, signInWithEmailAndPassword, signInWithPopup, updateProfile } from "firebase/auth";
 import { auth } from '../utils/firebase'
 import { addUser } from '../utils/userSlice'
 
@@ -16,8 +16,6 @@ const Login = () => {
   const password = useRef(null)
   const email = useRef(null)
   const name = useRef(null)
-  // console.log(phone);
-  
 
   const handleSignUp = (e) => {
     setSignUp(!signUp)
@@ -66,7 +64,9 @@ const Login = () => {
       .then((userCredential) => {
         // Signed in 
         const user = userCredential.user;
-        navigate("/")
+        console.log(user);
+        
+        navigate("/profile/")
       })
       .catch((error) => {
         setMessage("Please enter Sign Up Email")
@@ -74,6 +74,32 @@ const Login = () => {
     }
 
   }
+
+  const handleSignInGoogle = () => {
+    const provider = new GoogleAuthProvider();
+
+    signInWithPopup(auth, provider)
+      // .then((result) => {
+      //   // This gives you a Google Access Token. You can use it to access the Google API.
+      //   const credential = GoogleAuthProvider.credentialFromResult(result);
+      //   const token = credential.accessToken;
+      //   // The signed-in user info.
+      //   const user = result.user;
+      //   // IdP data available using getAdditionalUserInfo(result)
+      //   // ...
+      // }).catch((error) => {
+      //   // Handle Errors here.
+      //   const errorCode = error.code;
+      //   const errorMessage = error.message;
+      //   // The email of the user's account used.
+      //   const email = error.customData.email;
+      //   // The AuthCredential type that was used.
+      //   const credential = GoogleAuthProvider.credentialFromError(error);
+      //   // ...
+      // });
+  }
+
+
   const onlineStatus = useOnlineStatus()
 
     return !onlineStatus ? <h1>Looks like you're offline! Please check your internet connection.</h1> : (
@@ -119,9 +145,14 @@ const Login = () => {
            <p className='mx-4 my-2 text-red-600 font-semibold'>{message}</p>
            <button className='bg-red-700 rounded-lg p-2 mx-8 my-4 font-bold text-white active:bg-red-500'  >Continue</button>
         </form>
-        <h2 className='text-red-600 mx-2 my-2 font-semibold underline'>Forgot Password</h2>
+
+        {/* <h3>Sign In Using Google :</h3> */}
+        <button className='flex border p-2 bg-white font-semibold mx-16' onClick={handleSignInGoogle}><img className='w-6 h-6 mt-1 mx-2' src="https://img.freepik.com/premium-vector/google-logo-icon-set-google-icon-searching-icons-vector_981536-453.jpg?semt=ais_hybrid" alt="" />Sign In With Google</button>
+
+        {!signUp && <h2 className='text-red-600 mx-2 my-2 font-semibold underline'>Forgot Password</h2>}
         <h1 className='text-center font-semibold text-2xl '>OR</h1>
-        <button className='text-lg mx-2 underline' onClick={handleSignUp}>{signUp ? "Sign In" : "Create An account"}</button>
+
+        <button className='text-lg mx-2 my-2 underline' onClick={handleSignUp}>{signUp ? "Sign In" : "Create An account"}</button>
       </div>
 
     </div>
