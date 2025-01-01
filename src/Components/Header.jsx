@@ -16,7 +16,7 @@ const Header = () => {
     } else {
       navigate("/login");
     }
-  }, [userLogged, navigate]);
+  }, []);
 
   const handleLogo = () => {
     navigate("/");

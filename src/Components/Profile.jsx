@@ -11,6 +11,9 @@ const Profile = () => {
     const dispatch = useDispatch()
     const navigate = useNavigate()
 
+    // console.log(LoggedUser.displayName);
+    
+
     const handleSignOut = () => {
         signOut(auth)
               .then(() => {
