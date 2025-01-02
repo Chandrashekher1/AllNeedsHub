@@ -11,12 +11,17 @@ const Header = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (userLogged) {
-      navigate("/profile/");
-    } else {
-      navigate("/login");
+    if (userLogged === null || userLogged === undefined) {
+      return;
     }
-  }, []);
+  
+    if (userLogged) {
+      // navigate("/profile/");
+    } else {
+      // navigate("/");
+    }
+  }, [userLogged]);
+  
 
   const handleLogo = () => {
     navigate("/");
