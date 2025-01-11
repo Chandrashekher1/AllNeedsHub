@@ -20,6 +20,7 @@ const Cart = () => {
   const handleBackToCart = () => {
     setAddress(false); 
     setCartPage(true); 
+    // navigate("/cart")
   };
 
   const handleCheckOut= () => {
