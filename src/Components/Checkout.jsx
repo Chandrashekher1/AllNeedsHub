@@ -5,11 +5,21 @@ import { useNavigate } from 'react-router-dom';
 const Checkout = () => {
   const cartItems = useSelector((store) => store.cart.items || []);
   const totalRate = cartItems.reduce((sum, item) => sum + (item?.rate || 0), 0);
+  const userLogged = useSelector((store) => store.user)
+  console.log(userLogged);
   const navigate = useNavigate();
   
   const handlePayment = () => {
-    navigate("/payment/");
+    // Assuming userLogged is an object and logged-in users will have some property like 'id' or 'token'
+    if (!userLogged || Object.keys(userLogged).length === 0) {
+      // If the user is not logged in (userLogged is empty or null)
+      navigate("/login"); // Navigate to login page
+    } else {
+      // If the user is logged in
+      navigate("/payment/"); // Navigate to payment page
+    }
   };
+    
 
   return (
     <>
