@@ -38,12 +38,12 @@ const Cart = () => {
 
   return (
     <>
-      <button className='font-semibold border p-2 rounded-lg ml-32 bg-red-600 text-white' onClick={handleClearCart}>Clear Cart</button>
+      <button className='font-semibold border p-2 rounded-lg ml-32 bg-red-600 text-white md:ml-[50%]' onClick={handleClearCart}>Clear Cart</button>
       {cartPage && (
-        <div className="overflow-y-auto max-h-screen pb-20 relative">
+        <div className="overflow-y-auto max-h-screen pb-20 relative md:mx-32">
           {cartItems.length > 0 ? (
             cartItems.map((item) => (
-              <div key={item?.id} className="border m-4 flex flex-col flex-wrap">
+              <div key={item?.id} className="border m-4  flex flex-col flex-wrap md:px-8">
                 <img
                   src={item?.cloudinaryImageId}
                   alt=""
@@ -54,7 +54,7 @@ const Cart = () => {
                   <p className="text-gray-500 mt-2">{item?.weight}</p>
                   <p className="mt-2 font-bold">₹ {item?.rate || 'No Price'}</p>
                 </div>
-                <button className='border bg-green-800 text-white h-10 rounded-lg p-1 -mt-8 ml-[78%] w-16' onClick={() =>handleRemove(item)}>Remove</button>
+                <button className='border bg-green-800 text-white h-10 rounded-lg p-1 -mt-8  ml-[78%] w-16' onClick={() =>handleRemove(item)}>Remove</button>
               </div>
             ))
           ) : (

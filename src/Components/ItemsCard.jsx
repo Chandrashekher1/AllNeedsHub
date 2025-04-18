@@ -7,9 +7,9 @@ const ItemsCard = ({ data }) => {
   return !data || Object.keys(data).length === 0 ? (
   <Shimmer />
   ) : (
-  <div className="shadow-sm rounded-xl border text-center m-2  ">
+  <div className="shadow-sm rounded-xl border text-center my-4 mx-4  ">
     <Link to={`items/${data?.id}`}>
-      <div className="w-28 cursor-pointer hover:scale-90">
+      <div className="w-28 md:w-40 cursor-pointer hover:scale-90">
         <img
           className="rounded-md h-20 justify-center w-full object-contain"
           src={cloudinaryImageId}

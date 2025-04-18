@@ -23,7 +23,7 @@ const Checkout = () => {
 
   return (
     <>
-      <div className="overflow-y-auto max-h-screen pb-20">
+      <div className="overflow-y-auto max-h-screen pb-20 md:mx-24">
         {cartItems.length > 0 ? (
           cartItems.map((item) => (
             <div key={item?.id} className="border m-4 flex">

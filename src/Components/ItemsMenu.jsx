@@ -50,20 +50,20 @@ const ItemsMenu = () => {
 
   return (
     <>
-    <div className="flex flex-wrap ml-10">
+    <div className="flex flex-wrap ml-10 md:mx-40">
       {itemsMenu.map((item) => (
-        <div key={item.id} className="border m-2 w-32 rounded-lg text-center">
+        <div key={item.id} className="border m-2 md:mx-4 md:p-2 w-32 md:w-40 rounded-lg text-center">
           <img
             src={item.cloudinaryImageId}
             alt="Image_Product"
-            className="w-28 p-2 mx-2"
+            className="w-28 md:w-40 p-2 mx-2"
           />
           <h3 className="font-semibold">{item.name}</h3>
           <h4 className="font-bold my-2">₹{item.rate}</h4>
           <p className="text-gray-600">
             {item.weigth} - {item.cuisines || ""}
           </p>
-          <button className="border cursor-pointer border-green-500 rounded-lg font-semibold text-green-700 my-4 p-2 active:scale-90 " onClick={() => handleAddItem(item)}>
+          <button className="border cursor-pointer border-green-500 rounded-lg font-semibold text-green-700 my-4 p-2 active:scale-90 hover:bg-green-100" onClick={() => handleAddItem(item)}>
             ADD ME
           </button>
         </div>

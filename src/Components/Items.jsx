@@ -36,7 +36,7 @@ const Items = () => {
   return (
     <>
       <BgSlide />
-      <div className="flex flex-wrap justify-center p-4">
+      <div className="flex flex-wrap justify-center p-4 md:mx-20">
         {cards.map((card) => (
           <ItemsCard key={card.id} data={card} />
         ))}
