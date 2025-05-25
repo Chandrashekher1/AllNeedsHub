@@ -12,9 +12,10 @@ const Items = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("/constantData.json");
+        const response = await fetch("https://cpstore-backend.onrender.com/api/category");
         const json = await response.json();
-        setCards(json?.data?.cards || []);
+        setCards(json)
+        // setCards(json?.data?.cards || []);
       } catch (error) {
         console.error("Error fetching data:", error);
       }
