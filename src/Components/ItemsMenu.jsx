@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import Shimmer from "./Shimmer";
 import useOnlineStatus from "../Hooks/useOnlineStatus";
 import { useDispatch, useSelector } from "react-redux";
 import { addItems } from "../utils/cartSlice";
 
 const ItemsMenu = () => {
-  const { ItemsId } = useParams(); 
+  const collectionName  = useLocation(); 
+  console.log(collectionName.pathname);
+  
   const [itemsMenu, setItemsMenu] = useState([]);
   const onlineStatus = useOnlineStatus();
   const cartItems = useSelector((store) => store.cart.items || []);
@@ -17,11 +19,13 @@ const ItemsMenu = () => {
   
   const fetchData = async () => {
     try {
-      const response = await fetch("/constantData.json");
+      const response = await fetch(`https://cpstore-backend.onrender.com/api/product${collectionName.pathname}`);
       const json = await response.json();
+      console.log(json);
+      
       const menuData = json?.data?.cards || [];
-      const selectedItem = menuData.find((item) => item.id === ItemsId);
-      setItemsMenu(selectedItem?.ItemsMenu || []);
+      // const selectedItem = menuData.find((item) => item.id === collectionName);
+      setItemsMenu(json);
       // console.log(selectedItem);
     } catch (error) {
       console.error("Error fetching menu data:", error);
@@ -30,7 +34,7 @@ const ItemsMenu = () => {
 
   useEffect(() => {
     fetchData();
-  }, [ItemsId]);
+  }, []);
 
   if (!onlineStatus) {
     return <h1>Looks like you're offline! Please check your internet connection.</h1>;
@@ -52,16 +56,16 @@ const ItemsMenu = () => {
     <>
     <div className="flex flex-wrap ml-10 md:mx-40">
       {itemsMenu.map((item) => (
-        <div key={item.id} className="border m-2 md:mx-4 md:p-2 w-32 md:w-40 rounded-lg text-center">
+        <div key={item._id} className="border m-2 md:mx-4 md:p-2 w-32 md:w-40 rounded-lg text-center">
           <img
-            src={item.cloudinaryImageId}
+            src={item.images[0]}
             alt="Image_Product"
             className="w-28 md:w-40 p-2 mx-2"
           />
           <h3 className="font-semibold">{item.name}</h3>
-          <h4 className="font-bold my-2">₹{item.rate}</h4>
+          <h4 className="font-bold my-2">₹{item.price}</h4>
           <p className="text-gray-600">
-            {item.weigth} - {item.cuisines || ""}
+            {item.weigth} - {item.description || ""}
           </p>
           <button className="border cursor-pointer border-green-500 rounded-lg font-semibold text-green-700 my-4 p-2 active:scale-90 hover:bg-green-100" onClick={() => handleAddItem(item)}>
             ADD ME
