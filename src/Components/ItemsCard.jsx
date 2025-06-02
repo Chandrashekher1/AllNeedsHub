@@ -2,20 +2,21 @@ import { Link } from "react-router-dom";
 import Shimmer from "./Shimmer";
 
 const ItemsCard = ({ data }) => {
-  
+  const { name, cloudinaryImageId } = data?.info || {}
+
   return !data || Object.keys(data).length === 0 ? (
   <Shimmer />
   ) : (
   <div className="shadow-sm rounded-xl border text-center my-4 mx-4  ">
-    <Link to={`${data?.collectionName}`}>
+    <Link to={`items/${data?.id}`}>
       <div className="w-28 md:w-40 cursor-pointer hover:scale-90">
         <img
           className="rounded-md h-20 justify-center w-full object-contain"
-          src={data.image}
+          src={cloudinaryImageId}
           alt="ItemImages"
         />
         <p className="font-semibold text- text-gray-800 my-4 text-wrap">
-          {data.name}
+          {name}
         </p>
       </div>
     </Link>

@@ -10,13 +10,10 @@ const Checkout = () => {
   const navigate = useNavigate();
   
   const handlePayment = () => {
-    // Assuming userLogged is an object and logged-in users will have some property like 'id' or 'token'
     if (!userLogged || Object.keys(userLogged).length === 0) {
-      // If the user is not logged in (userLogged is empty or null)
-      navigate("/login"); // Navigate to login page
+      navigate("/login")
     } else {
-      // If the user is logged in
-      navigate("/payment/"); // Navigate to payment page
+      navigate("/payment/")
     }
   };
     
