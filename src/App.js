@@ -15,6 +15,7 @@ import { auth } from "./utils/firebase";
 import { addUser, removeUser } from "./utils/userSlice";
 import Profile from "./Components/Profile";
 
+
 const AppLayout = () => (
   <div className="overflow-x-hidden font-sans">
     <Header />
@@ -42,7 +43,7 @@ const appRouter = createBrowserRouter([
         element: <Cart />,
       },
       {
-        path: "/items/:ItemsId",
+         path: "/items/:ItemsId",
         element: <ItemsMenu />,
       },
       {
