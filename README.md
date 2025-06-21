@@ -1,3 +1,75 @@
+
+# Ecommerce Website
+
+AllNeedsHub is a responsive and user-friendly grocery shopping web application where users can search, browse, add items to cart, and checkout seamlessly. Built using React, Tailwind CSS, Redux, and modern frontend practices.
+
+
+
+# Features
+- Cart System – Add, remove, and update product quantities
+
+- Cart System – Add, remove, and update product quantities
+
+- Persistent State – Data retained via Redux even on page refresh
+
+- Responsive Design – Mobile-first interface using Tailwind CSS
+- Responsive UI built with Tailwind CSS
+
+- Smart Search – Instantly find products from the inventory
+
+
+# Tech Stack
+- Frontend : React.js, Tailwind CSS, MUI
+- State Management: Redux, Redux Toolkit
+- Deployment : Vercel and Render
+
+# View
+![image](https://github.com/user-attachments/assets/e1ba03ad-f598-4d05-993a-d08bb45e028b)
+![image](https://github.com/user-attachments/assets/a96ff40b-e459-43ce-8551-aa77b6c0e54e)
+![image](https://github.com/user-attachments/assets/fced8599-3247-4fe7-bf4a-1ab75b130ee9)
+
+
+
+
+# Getting Started
+ Prerequisites
+- React.js 19.1.0
+- Mongodb Atlas Account
+
+# Installation
+ 
+1. Clone the repository
+- git clone https://github.com/Chandrashekher1/AllNeedsHub.git
+2. Navigate to the project
+- cd my_grocery
+4. Frontend Setup
+- npm Install
+- npm start
+
+# Folder Structure
+    AllNeedsHub/
+    src/
+    components/        # Reusable UI components
+    redux/             # Redux slices and store setup
+    assets/            # Images and static resources
+    App.js             # App routes and structure
+    index.js           # React entry point
+
+# Redux Highlights
+-  Cart Slice: Add/Remove/Update quantity
+- Selectors: Real-time cart total and count
+- Store Persistence: Local storage-based cart retention
+
+# Contributing
+- Contributions, issues, and feature requests are welcome! Feel free to check issues page.
+
+# Deployment
+Vercel
+1. Push code to Github
+2. Connect repository to Vercel
+3. Add environment variables in Vercel dashboard
+4. Deploy automatically
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
