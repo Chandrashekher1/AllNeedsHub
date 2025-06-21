@@ -14,6 +14,7 @@ import { getAuth, onAuthStateChanged } from "firebase/auth";
 import { auth } from "./utils/firebase";
 import { addUser, removeUser } from "./utils/userSlice";
 import Profile from "./Components/Profile";
+import SearchItems from "./Components/SearchItems";
 
 
 const AppLayout = () => (
@@ -45,6 +46,10 @@ const appRouter = createBrowserRouter([
       {
          path: "/items/:ItemsId",
         element: <ItemsMenu />,
+      },
+      {
+         path: "/search/",
+        element: <SearchItems />,
       },
       {
         path: "/checkout/",
