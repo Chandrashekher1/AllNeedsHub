@@ -33,12 +33,10 @@ const Login = () => {
       password.current?.value
     );
     setMessage(validationMessage);
-
     if (validationMessage) return;
 
     try {
       if (signUp) {
-        // Sign-Up logic
         const userCredential = await createUserWithEmailAndPassword(
           auth,
           email.current?.value,
@@ -46,12 +44,10 @@ const Login = () => {
         );
         const user = userCredential.user;
 
-        // Update profile
         await updateProfile(user, {
           displayName: name.current?.value,
         });
 
-        // Use the `user` object directly instead of `auth.currentUser`
         dispatch(
           addUser({
             uid: user.uid,
@@ -63,7 +59,6 @@ const Login = () => {
 
         navigate("/");
       } else {
-        // Sign-In logic
         const userCredential = await signInWithEmailAndPassword(
           auth,
           email.current?.value,
@@ -71,7 +66,13 @@ const Login = () => {
         );
         const user = userCredential.user;
 
-        dispatch(addUser({ uid: user.uid, email: user.email, displayName: user.displayName }));
+        dispatch(
+          addUser({
+            uid: user.uid,
+            email: user.email,
+            displayName: user.displayName,
+          })
+        );
 
         navigate("/profile/");
       }
@@ -103,93 +104,121 @@ const Login = () => {
 
   const onlineStatus = useOnlineStatus();
 
-  return !onlineStatus ? (
-    <h1>Looks like you're offline! Please check your internet connection.</h1>
-  ) : (
-    <div className="mx-4 border bg-gray-100">
-      <h3 className="text-center font-bold text-3xl">{signUp ? "Sign Up" : "Sign In"}</h3>
+  if (!onlineStatus) {
+    return (
+      <h1 className="text-center mt-20 text-lg text-red-600 font-semibold">
+        Looks like you're offline! Please check your internet connection.
+      </h1>
+    );
+  }
 
-      <form className="flex flex-col my-6" onSubmit={handleSubmit}>
-        {signUp && (
-          <>
-            <label htmlFor="name" className="mx-4 font-semibold">
-              Full Name:
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
+      <div className="w-full max-w-md bg-white rounded-lg shadow-md p-6">
+        <h3 className="text-center font-bold text-2xl mb-6">
+          {signUp ? "Sign Up" : "Sign In"}
+        </h3>
+
+        <form className="space-y-4" onSubmit={handleSubmit}>
+          {signUp && (
+            <div>
+              <label htmlFor="name" className="font-semibold block">
+                Full Name:
+              </label>
+              <input
+                type="text"
+                id="name"
+                ref={name}
+                placeholder="Enter your name"
+                className="w-full border border-gray-400 rounded-md px-3 py-2 mt-1"
+                required
+              />
+            </div>
+          )}
+
+          <div>
+            <label htmlFor="mobile" className="font-semibold block">
+              Mobile No:
             </label>
             <input
               type="text"
-              id="name"
-              ref={name}
-              placeholder="Enter your name"
-              className="border border-black rounded-sm mx-4 my-2 p-2 outline-none"
+              id="mobile"
+              ref={phone}
+              placeholder="Mobile Number"
+              className="w-full border border-gray-400 rounded-md px-3 py-2 mt-1"
+              maxLength={10}
+              inputMode="numeric"
               required
             />
-          </>
+          </div>
+
+          <div>
+            <label htmlFor="email" className="font-semibold block">
+              Email:
+            </label>
+            <input
+              type="email"
+              id="email"
+              ref={email}
+              placeholder="Email"
+              className="w-full border border-gray-400 rounded-md px-3 py-2 mt-1"
+              required
+            />
+          </div>
+
+          <div>
+            <label htmlFor="password" className="font-semibold block">
+              Password:
+            </label>
+            <input
+              type="password"
+              id="password"
+              ref={password}
+              placeholder="Password"
+              className="w-full border border-gray-400 rounded-md px-3 py-2 mt-1"
+              required
+            />
+          </div>
+
+          {message && <p className="text-red-600 font-medium">{message}</p>}
+
+          <button
+            type="submit"
+            className="w-full bg-red-700 text-white font-bold py-2 rounded-md hover:bg-red-600"
+          >
+            Continue
+          </button>
+        </form>
+
+        <button
+          className="flex items-center justify-center border border-gray-300 mt-4 w-full p-2 rounded-md bg-white hover:bg-gray-50"
+          onClick={handleSignInGoogle}
+        >
+          <img
+            className="w-6 h-6 mr-2"
+            src="https://img.freepik.com/premium-vector/google-logo-icon-set-google-icon-searching-icons-vector_981536-453.jpg"
+            alt="Google"
+          />
+          Sign In with Google
+        </button>
+
+        {!signUp && (
+          <h2 className="text-red-600 text-sm mt-2 underline cursor-pointer text-center">
+            Forgot Password?
+          </h2>
         )}
 
-        <label htmlFor="mobile" className="mx-4 font-semibold">
-          Mobile No:
-        </label>
-        <input
-          type="text"
-          id="mobile"
-          ref={phone}
-          placeholder="Mobile Number"
-          className="border border-black rounded-sm mx-4 my-2 p-2 outline-none"
-          maxLength={10}
-          inputMode="numeric"
-          required
-        />
+        <div className="text-center mt-4">
+          <span className="text-gray-700 text-sm">OR</span>
+        </div>
 
-        <label htmlFor="email" className="mx-4 font-semibold">
-          Email:
-        </label>
-        <input
-          type="email"
-          id="email"
-          ref={email}
-          placeholder="Email"
-          className="border border-black rounded-sm mx-4 my-2 p-2 outline-none"
-          required
-        />
-
-        <label htmlFor="password" className="mx-4 font-semibold">
-          Password:
-        </label>
-        <input
-          type="password"
-          id="password"
-          ref={password}
-          placeholder="Password"
-          className="border border-black rounded-sm mx-4 my-2 p-2 outline-none"
-          required
-        />
-
-        <p className="mx-4 my-2 text-red-600 font-semibold">{message}</p>
-        <button className="bg-red-700 rounded-lg p-2 mx-8 my-4 font-bold text-white">
-          Continue
+        <button
+          className="w-full text-blue-600 font-semibold mt-2 underline"
+          onClick={toggleSignUp}
+        >
+          {signUp ? "Already have an account? Sign In" : "Create an Account"}
         </button>
-      </form>
-
-      <button
-        className="flex border p-2 bg-white font-semibold mx-16"
-        onClick={handleSignInGoogle}
-      >
-        <img
-          className="w-6 h-6 mt-1 mx-2"
-          src="https://img.freepik.com/premium-vector/google-logo-icon-set-google-icon-searching-icons-vector_981536-453.jpg"
-          alt="Google"
-        />
-        Sign In With Google
-      </button>
-
-      {!signUp && (
-        <h2 className="text-red-600 mx-2 my-2 font-semibold underline">Forgot Password</h2>
-      )}
-      <h1 className="text-center font-semibold text-2xl">OR</h1>
-
-      <button className="text-lg mx-2 my-2 underline" onClick={toggleSignUp}>
-        {signUp ? "Sign In" : "Create An Account"}
-      </button>
+      </div>
     </div>
   );
 };
